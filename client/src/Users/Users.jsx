@@ -50,7 +50,7 @@ function Users() {
   return (
     <div>
       <h2>Liste des utilisateurs</h2>
-      <button onClick={logout} style={{backgroundColor: "red", color:"white"}}>Se Déconnecter</button>
+      <button onClick={logout}>Se Déconnecter</button>
       <br/><br/>
 
       <Link to='/users/add'><button>Ajouter un utilisateur</button></Link>
